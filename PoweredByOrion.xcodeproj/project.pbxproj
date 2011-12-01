@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72DAA901487778C000DF639 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72DAA8F1487778C000DF639 /* Cocoa.framework */; };
+		B72DAA9A1487778C000DF639 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B72DAA981487778C000DF639 /* InfoPlist.strings */; };
+		B72DAA9C1487778C000DF639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72DAA9B1487778C000DF639 /* main.m */; };
+		B72DAAA01487778D000DF639 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B72DAA9E1487778D000DF639 /* Credits.rtf */; };
+		B72DAAA31487778D000DF639 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = B72DAAA21487778D000DF639 /* Document.m */; };
+		B72DAAA61487778D000DF639 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72DAAA41487778D000DF639 /* Document.xib */; };
+		B72DAAA91487778D000DF639 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72DAAA71487778D000DF639 /* MainMenu.xib */; };
+		B72DAAB214878B7C000DF639 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72DAAB114878B7C000DF639 /* WebKit.framework */; };
+		B72DAAB514878D4B000DF639 /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = B72DAAB414878D4B000DF639 /* editor.html */; };
+		B72DAAB814879119000DF639 /* editor.js in Resources */ = {isa = PBXBuildFile; fileRef = B72DAAB714879119000DF639 /* editor.js */; };
+		B72DAABC1487B51C000DF639 /* editor.css in Resources */ = {isa = PBXBuildFile; fileRef = B72DAABB1487B51C000DF639 /* editor.css */; };
+		B72DAAC01487BD1F000DF639 /* orion.css in Resources */ = {isa = PBXBuildFile; fileRef = B72DAABE1487BD1F000DF639 /* orion.css */; };
+		B72DAAC11487BD1F000DF639 /* orion.js in Sources */ = {isa = PBXBuildFile; fileRef = B72DAABF1487BD1F000DF639 /* orion.js */; };
+		B72DAAC21487BD69000DF639 /* orion.js in Resources */ = {isa = PBXBuildFile; fileRef = B72DAABF1487BD1F000DF639 /* orion.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B72DAA8B1487778C000DF639 /* PoweredByOrion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoweredByOrion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72DAA8F1487778C000DF639 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B72DAA921487778C000DF639 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B72DAA931487778C000DF639 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B72DAA941487778C000DF639 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B72DAA971487778C000DF639 /* PoweredByOrion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoweredByOrion-Info.plist"; sourceTree = "<group>"; };
+		B72DAA991487778C000DF639 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B72DAA9B1487778C000DF639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B72DAA9D1487778C000DF639 /* PoweredByOrion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoweredByOrion-Prefix.pch"; sourceTree = "<group>"; };
+		B72DAA9F1487778D000DF639 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B72DAAA11487778D000DF639 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		B72DAAA21487778D000DF639 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		B72DAAA51487778D000DF639 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		B72DAAA81487778D000DF639 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B72DAAB114878B7C000DF639 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B72DAAB414878D4B000DF639 /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = editor.html; path = PoweredByOrion/editor.html; sourceTree = "<group>"; };
+		B72DAAB714879119000DF639 /* editor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = editor.js; path = PoweredByOrion/editor.js; sourceTree = "<group>"; };
+		B72DAAB91487A4BC000DF639 /* org.eclipse.orion.client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = org.eclipse.orion.client; path = PoweredByOrion/org.eclipse.orion.client; sourceTree = "<group>"; };
+		B72DAABB1487B51C000DF639 /* editor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = editor.css; path = PoweredByOrion/editor.css; sourceTree = "<group>"; };
+		B72DAABE1487BD1F000DF639 /* orion.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = orion.css; path = PoweredByOrion/orion.css; sourceTree = "<group>"; };
+		B72DAABF1487BD1F000DF639 /* orion.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = orion.js; path = PoweredByOrion/orion.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72DAA881487778C000DF639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72DAAB214878B7C000DF639 /* WebKit.framework in Frameworks */,
+				B72DAA901487778C000DF639 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72DAA801487778C000DF639 = {
+			isa = PBXGroup;
+			children = (
+				B72DAAB614878D65000DF639 /* Editor */,
+				B72DAA951487778C000DF639 /* PoweredByOrion */,
+				B72DAA8E1487778C000DF639 /* Frameworks */,
+				B72DAA8C1487778C000DF639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72DAA8C1487778C000DF639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72DAA8B1487778C000DF639 /* PoweredByOrion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72DAA8E1487778C000DF639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72DAAB114878B7C000DF639 /* WebKit.framework */,
+				B72DAA8F1487778C000DF639 /* Cocoa.framework */,
+				B72DAA911487778C000DF639 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B72DAA911487778C000DF639 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72DAA921487778C000DF639 /* AppKit.framework */,
+				B72DAA931487778C000DF639 /* CoreData.framework */,
+				B72DAA941487778C000DF639 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B72DAA951487778C000DF639 /* PoweredByOrion */ = {
+			isa = PBXGroup;
+			children = (
+				B72DAAA11487778D000DF639 /* Document.h */,
+				B72DAAA21487778D000DF639 /* Document.m */,
+				B72DAAA41487778D000DF639 /* Document.xib */,
+				B72DAAA71487778D000DF639 /* MainMenu.xib */,
+				B72DAA961487778C000DF639 /* Supporting Files */,
+			);
+			path = PoweredByOrion;
+			sourceTree = "<group>";
+		};
+		B72DAA961487778C000DF639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72DAA971487778C000DF639 /* PoweredByOrion-Info.plist */,
+				B72DAA981487778C000DF639 /* InfoPlist.strings */,
+				B72DAA9B1487778C000DF639 /* main.m */,
+				B72DAA9D1487778C000DF639 /* PoweredByOrion-Prefix.pch */,
+				B72DAA9E1487778D000DF639 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B72DAAB614878D65000DF639 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				B72DAAB91487A4BC000DF639 /* org.eclipse.orion.client */,
+				B72DAAB414878D4B000DF639 /* editor.html */,
+				B72DAAB714879119000DF639 /* editor.js */,
+				B72DAABB1487B51C000DF639 /* editor.css */,
+				B72DAABE1487BD1F000DF639 /* orion.css */,
+				B72DAABF1487BD1F000DF639 /* orion.js */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B72DAA8A1487778C000DF639 /* PoweredByOrion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72DAAAC1487778D000DF639 /* Build configuration list for PBXNativeTarget "PoweredByOrion" */;
+			buildPhases = (
+				B72DAA871487778C000DF639 /* Sources */,
+				B72DAA881487778C000DF639 /* Frameworks */,
+				B72DAABD1487BAF3000DF639 /* ShellScript */,
+				B72DAA891487778C000DF639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoweredByOrion;
+			productName = PoweredByOrion;
+			productReference = B72DAA8B1487778C000DF639 /* PoweredByOrion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72DAA821487778C000DF639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B72DAA851487778C000DF639 /* Build configuration list for PBXProject "PoweredByOrion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B72DAA801487778C000DF639;
+			productRefGroup = B72DAA8C1487778C000DF639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72DAA8A1487778C000DF639 /* PoweredByOrion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72DAA891487778C000DF639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72DAA9A1487778C000DF639 /* InfoPlist.strings in Resources */,
+				B72DAAA01487778D000DF639 /* Credits.rtf in Resources */,
+				B72DAAA61487778D000DF639 /* Document.xib in Resources */,
+				B72DAAA91487778D000DF639 /* MainMenu.xib in Resources */,
+				B72DAAB514878D4B000DF639 /* editor.html in Resources */,
+				B72DAAB814879119000DF639 /* editor.js in Resources */,
+				B72DAABC1487B51C000DF639 /* editor.css in Resources */,
+				B72DAAC21487BD69000DF639 /* orion.js in Resources */,
+				B72DAAC01487BD1F000DF639 /* orion.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B72DAABD1487BAF3000DF639 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BASE=$SRCROOT/PoweredByOrion/org.eclipse.orion.client/bundles/org.eclipse.orion.client.editor/web\ncat \\\n$BASE/orion/textview/global.js \\\n$BASE/orion/textview/eventTarget.js \\\n$BASE/orion/textview/keyBinding.js \\\n$BASE/orion/textview/annotations.js \\\n$BASE/orion/textview/textModel.js \\\n$BASE/orion/textview/projectionTextModel.js \\\n$BASE/orion/textview/textView.js \\\n$BASE/orion/textview/tooltip.js \\\n$BASE/orion/textview/rulers.js \\\n$BASE/orion/textview/undoStack.js \\\n$BASE/examples/textview/textStyler.js \\\n$BASE/orion/editor/editorFeatures.js \\\n$BASE/orion/editor/contentAssist.js \\\n$BASE/orion/editor/htmlGrammar.js \\\n$BASE/orion/editor/textMateStyler.js \\\n$BASE/orion/editor/webContentAssist.js \\\n$BASE/orion/editor/editor.js > $SRCROOT/PoweredByOrion/orion.js\n\ncat \\\n$BASE/orion/textview/textview.css \\\n$BASE/orion/textview/rulers.css \\\n$BASE/orion/textview/annotations.css \\\n$BASE/examples/textview/textstyler.css \\\n$BASE/examples/editor/htmlStyles.css > $SRCROOT/PoweredByOrion/orion.css\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72DAA871487778C000DF639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72DAA9C1487778C000DF639 /* main.m in Sources */,
+				B72DAAA31487778D000DF639 /* Document.m in Sources */,
+				B72DAAC11487BD1F000DF639 /* orion.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B72DAA981487778C000DF639 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72DAA991487778C000DF639 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B72DAA9E1487778D000DF639 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72DAA9F1487778D000DF639 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B72DAAA41487778D000DF639 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72DAAA51487778D000DF639 /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		B72DAAA71487778D000DF639 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72DAAA81487778D000DF639 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B72DAAAA1487778D000DF639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B72DAAAB1487778D000DF639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B72DAAAD1487778D000DF639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoweredByOrion/PoweredByOrion-Prefix.pch";
+				INFOPLIST_FILE = "PoweredByOrion/PoweredByOrion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B72DAAAE1487778D000DF639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoweredByOrion/PoweredByOrion-Prefix.pch";
+				INFOPLIST_FILE = "PoweredByOrion/PoweredByOrion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72DAA851487778C000DF639 /* Build configuration list for PBXProject "PoweredByOrion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72DAAAA1487778D000DF639 /* Debug */,
+				B72DAAAB1487778D000DF639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72DAAAC1487778D000DF639 /* Build configuration list for PBXNativeTarget "PoweredByOrion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72DAAAD1487778D000DF639 /* Debug */,
+				B72DAAAE1487778D000DF639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72DAA821487778C000DF639 /* Project object */;
+}
