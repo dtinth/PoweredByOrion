@@ -1,4 +1,26 @@
 .viewContainer {
 	font: 11pt Menlo, Thonburi, sans-serif;
 }
-body { background: #ccc; }
+body { background: #353433; }
+::-webkit-scrollbar-corner {
+	background-color: #353433;
+}
+.ruler.ruler { background: #1c1c1c; border-color: #333 }
+.view { background: #232323; color: #dadada; }
+.annotationLine.currentLine { background-color: #333; }
+.token_singleline_comment { color: #80ef50; }
+.token_multiline_comment { color: #80ef50; }
+.token_doc_comment { color: #80ef50; }
+.token_doc_html_markup { color: #80ef50; }
+.token_doc_tag { color: #80ef50; }
+.token_task_tag { color: #80ef50; }
+.token_string { color: #f9f979; }
+.token_keyword { color: #ecb760; font-weight: bold; }
+.rulerLines { color: #8b8685; }
+
+.entity-name-tag { color: #d8cba3; }
+.entity-other-attribute-name { color: #d8cba3; }
+.punctuation-definition-comment { color: #d8cba3; }
+.comment { color: #80ef50 }
+.string-quoted { color: #f9f979; font-style: italic; }
+.invalid { color: #f97979; font-weight: bold; }
