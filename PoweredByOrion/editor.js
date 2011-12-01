@@ -90,15 +90,19 @@ window.onload = (function(){
 		editor.setInput(null, null, null, true);
 	};
 	
+	window.getDirty = function() {
+		return ~~editor.getDirty();
+	};
+	
 	editor.addEventListener("DirtyChanged", function(evt) {
 		if (window.pbo) {
-			//window.pbo.setDirty_(~~editor.getDirty());
+			window.pbo.setDirtyFlag();
 		}
 	});
 	
 	editor.addEventListener("Modified", function(evt) {
 		if (window.pbo) {
-			//window.pbo.textModified(~~editor.getDirty());
+			window.pbo.textChanged();
 		}
 	});
 	

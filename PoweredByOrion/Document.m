@@ -28,11 +28,12 @@
 	if (aSelector == @selector(textChanged)) return NO;
 	if (aSelector == @selector(getInitialText)) return NO;
 	if (aSelector == @selector(getInitialFilename)) return NO;
-	if (aSelector == @selector(setDirtyFlag:)) return NO;
+	if (aSelector == @selector(setDirtyFlag)) return NO;
 	return YES;
 }
 
-- (void)setDirtyFlag:(int)flag {
+- (void)setDirtyFlag {
+	NSNumber *flag = [[webView windowScriptObject] callWebScriptMethod:@"getDirty" withArguments:[NSArray array]];
 	if (flag) {
 		[self updateChangeCount:NSChangeDone];
 	} else {
